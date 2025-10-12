@@ -1,0 +1,214 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+body{
+  background-color: rgb(250, 221, 210);
+  overflow-x: hidden;
+}
+/* .parent{
+  background-color: rgb(160, 93, 93);
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+.parent div{
+  background-color: brown;
+  color: white;
+  padding: 1rem;
+  margin: .3rem;
+} */
+ .fa-solid{
+  color: orangered;
+ }
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: 2rem;
+  box-shadow: 0 0 4px gray;
+  /* position: fixed; */
+}
+nav img{
+  width: 10rem;
+}
+nav ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 1.5rem;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+nav .content1{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  /* background-color: brown; */
+  width: 40%;
+  
+}
+main{
+  width: 100%;
+ margin-left: 10rem;
+ /* overflow-x: hidden; */
+}
+nav .content1 button{
+  width: 20%;
+  height: 4vh;
+  border: none;
+  border-radius: .2rem;
+  background-color: orangered;
+  color: white;
+
+}
+.hero{
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  gap: 15rem;
+}
+.hero img{
+  width: 60%;
+}
+a:hover{
+  color: orangered;
+}
+.hero .left{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.hero .left button{
+  width: 40%;
+  padding: .5rem 0;
+  border: 3px solid orangered;
+  background-color: white;
+  border-radius: .3rem;
+  color: orangered;
+  font-weight: bold;
+}
+.hero .left button:hover{
+  color: white;
+  background-color: orangered;
+
+}
+.sec1 img{
+  width: 70%;
+}
+.sec1 .left{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.sec1 .left button{
+  width: 40%;
+  padding: .5rem 0;
+  border:  3px solid orangered;
+  background-color: white;
+  border-radius: .3rem;
+  color: orangered;
+  font-weight: bold;
+}
+.sec1{
+  display: flex;
+  align-items: center;
+  gap: 10rem;
+  margin-top: 15rem;
+}
+.sec2{
+  display: flex;
+  align-items: center;
+  gap: 15rem;
+}
+.sec2 img{
+  width: 70%;
+}
+.sec2 .right{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+button:hover{
+  background-color: orangered;
+  color: white;
+ }
+ .meal{
+  width: 25%;
+  height: 60vh;
+  box-shadow: 0 0 2px gray;
+
+ }
+ .meal img{
+  width: 100%;
+  border-radius: 5px;
+ }
+ .meal button{
+  background-color: green;
+  color: white;
+  padding: .2rem;
+  border: none;
+  border-radius: .2rem;
+  width: 20%;
+ }
+ .content2{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+ .meals{
+  margin-top: 5rem;
+  display: flex;
+    gap: 1rem;
+    text-align: center;
+ }
+ .icons{
+  display: flex; 
+  align-items: center;
+  gap: 1rem;
+ }
+ img:hover{
+   transform: scale(1.05);
+ }
+ footer{
+  margin-top: 5rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: rgb(230, 220, 220);
+ }
+ footer h3{
+  color: orangered;
+ }
+ .fa-brands:hover{
+  color: orangered;
+ }
+ footer .s1{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+ }
+ .review{
+  width: 50%;
+ }
+ .review img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+ }
+ .reviews1{
+  display: flex;
+ }
+ .reviews{
+  margin-top: 5rem;
+ }

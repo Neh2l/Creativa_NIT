@@ -108,8 +108,9 @@ header {
 .card1, .card2, .card3 {
   width: 260px;
   text-align: center;
-  box-shadow: 0 0 4px gray;
+  box-shadow: 0 0 4px rgba(128, 128, 128, 0.507);
   padding: 1rem;
+  border-radius: .5rem;
 }
 
 .section1, .section2 {
